@@ -1,6 +1,6 @@
 # docker-openpose
 
-Docker Image for [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose/). Forked from https://github.com/garyfeng/DockerFiles-public. 
+Docker Image for [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose/). Forked from https://github.com/garyfeng/docker-openpose
 
 ### Pull
 
@@ -10,7 +10,7 @@ Docker Image for [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/open
 
 Mount folder with data to docker
 
-`nvidia-docker run -v /folder/with/data:/data -it immortalturtle/openpose-docker:latest bash`
+nvidia-docker run -v /folder/with/data:/data -it immortalturtle/docker-openpose:latest bash
 
 ### Test
 
